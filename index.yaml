@@ -3,7 +3,7 @@ entries:
   nginx-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-02T07:49:06.265540083Z"
+    created: "2023-07-02T07:51:03.531133386Z"
     description: A Helm chart for Kubernetes
     digest: e1512ee98722889b7a6e4fc896c3cd646f79c05e4ebed4b1c101412401e8ff25
     name: nginx-chart
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/mohdsabir-cloudside/helm-chart-repo/gh-pages/nginx-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-02T07:49:06.26514308Z"
+generated: "2023-07-02T07:51:03.530737182Z"
