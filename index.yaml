@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   nginx-chart:
   - apiVersion: v2
+    appVersion: "23"
+    created: "2023-07-02T17:13:57.954115438Z"
+    description: A Helm chart for Kubernetes
+    digest: 7137ecde89cab328320199c9b31fa048f8cfee35fb7bd96cf1029c7c0d120465
+    name: nginx-chart
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/mohdsabir-cloudside/helm-chart-repo/gh-pages/nginx-chart-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
     appVersion: 1.14.2
-    created: "2023-07-02T10:54:20.149576103Z"
+    created: "2023-07-02T17:13:57.953867631Z"
     description: A Helm chart for Kubernetes
     digest: 2d4452b85be6117cbd1de4227d24b4e20eb79314aeff17671ce835a3a2ddebba
     name: nginx-chart
@@ -13,7 +23,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.24.1
-    created: "2023-07-02T10:54:20.149364703Z"
+    created: "2023-07-02T17:13:57.953617023Z"
     description: A Helm chart for Kubernetes
     digest: e1e0a5b1c43f00938e46697e486773124061dc5c24aae4bcea566ae7b0a73036
     name: nginx-chart
@@ -23,7 +33,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.25.1
-    created: "2023-07-02T10:54:20.149130702Z"
+    created: "2023-07-02T17:13:57.953357114Z"
     description: A Helm chart for Kubernetes
     digest: ecf57ee3e77be5af911b3076938084e2bc031e3351fc488c8185ccf90ba09de6
     name: nginx-chart
@@ -33,7 +43,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-02T10:54:20.148899102Z"
+    created: "2023-07-02T17:13:57.953010604Z"
     description: A Helm chart for Kubernetes
     digest: e1512ee98722889b7a6e4fc896c3cd646f79c05e4ebed4b1c101412401e8ff25
     name: nginx-chart
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/mohdsabir-cloudside/helm-chart-repo/gh-pages/nginx-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-02T10:54:20.148465102Z"
+generated: "2023-07-02T17:13:57.952562389Z"
