@@ -34,7 +34,7 @@ jobs:
           ls 
           ls -ltrh 
           find ./src/nginx-chart/ -type f -name 'Chart.yaml' | sed -r 's|/[^/]+$||' | sort | uniq | xargs -L 1 helm dep up
-          for d in src/nginx-chart/*/ ; do
+          for d in src/*/ ; do
               echo "$d"
               helm package "$d" -u -d dest
           done
