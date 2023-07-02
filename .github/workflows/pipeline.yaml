@@ -48,7 +48,7 @@ jobs:
           git add $(git ls-files -o --exclude-standard)
           git add index.yaml
           git commit -m "Updated from ref: $GITHUB_SHA"
-          git push https://$USERNAME:$REPO_KEY@github.com/myorg/mohdsabir-cloudside/helm-chart-repo.git
+          git push https://$USERNAME:$REPO_KEY@github.com/mohdsabir-cloudside/helm-chart-repo.git
         env:
          REPO_KEY: ${{secrets.PAT_TOKEN}}
          USERNAME: github-actions[bot]
