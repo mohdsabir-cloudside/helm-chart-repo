@@ -5,6 +5,8 @@ concurrency: release-helm
 
 on:
   workflow_dispatch:
+  permissions:
+    contents: write
   push:
     branches:
       - main
@@ -48,8 +50,5 @@ jobs:
           git add $(git ls-files -o --exclude-standard)
           git add index.yaml
           git commit -m "Updated from ref: $GITHUB_SHA"
-          git push https://$USERNAME:$REPO_KEY@github.com/mohdsabir-cloudside/helm-chart-repo.git
-        env:
-         REPO_KEY: ${{secrets.PAT_TOKEN}}
-         USERNAME: mohdsabir-cloudside
+          git push 
 
