@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: nginx
-  tag: "1.24.0"
+  tag: "1.14.2"
   pullPolicy: IfNotPresent
 
 service:
