@@ -41,8 +41,6 @@ jobs:
       - name: Push New Files
         shell: bash
         working-directory: dest
-        with:
-          github_token: ${{ secrets.PAT_TOKEN }}
         run: |
           helm repo index . --url https://raw.githubusercontent.com/mohdsabir-cloudside/helm-chart-repo/gh-pages/
           git config user.name "github-actions[bot]"
@@ -51,4 +49,7 @@ jobs:
           git add index.yaml
           git commit -m "Updated from ref: $GITHUB_SHA"
           git push
+        env:
+         REPO_KEY: ${{secrets.PAT_TOKEN}}
+         USERNAME: github-actions[bot]
 
