@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: asia-south1-docker.pkg.dev/cloudside-academy/lk-repo/cs-app
   tag: "1.14.2"
   pullPolicy: IfNotPresent
 
