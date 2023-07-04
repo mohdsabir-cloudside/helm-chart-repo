@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: asia-south1-docker.pkg.dev/cloudside-academy/lk-repo/cs-app
-  tag: "12"
+  tag: "13"
   pullPolicy: IfNotPresent
 
 service:
