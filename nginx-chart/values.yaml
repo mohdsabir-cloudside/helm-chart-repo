@@ -7,9 +7,9 @@ image:
 
 service:
   name: nginx-service
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
-  targetPort: 9000
+  targetPort: 8080
 
 env:
   name: dev
